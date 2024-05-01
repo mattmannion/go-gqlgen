@@ -1,0 +1,11 @@
+{
+  "ext": "go, html, js, ts, css, scss",
+  "signal": "SIGTERM",
+  "exec": "commands/testing/gotest.sh || exit 1",
+  "effects": {
+    "start": "clear"
+  },
+  "events": {
+    "start": "clear"
+  }
+}

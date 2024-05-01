@@ -1,0 +1,18 @@
+{
+  "author": "Matt Mannion",
+  "license": "MIT",
+  "name": "go-template-base",
+  "version": "0.0.0",
+  "description": "go template base project",
+  "main": "src/main.go",
+  "scripts": {
+    "mon:g": "nodemon --config nodemon.gen.json",
+    "mon:d": "nodemon --config nodemon.dev.json",
+    "mon:t": "nodemon --config nodemon.test.json",
+    "d": "concurrently \"npm:mon:g\" \"npm:mon:d\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  }
+}

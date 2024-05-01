@@ -1,0 +1,11 @@
+{
+  "ext": "graphql, gql, yml",
+  "signal": "SIGTERM",
+  "exec": "commands/core/gen.sh || exit 1",
+  "effects": {
+    "start": "clear"
+  },
+  "events": {
+    "start": "clear"
+  }
+}
